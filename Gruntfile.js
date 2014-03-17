@@ -22,9 +22,13 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-      all: {
-        files: ['src/**'],
-        tasks: ['default']
+      hsp: {
+        files: ['src/**/*.hsp'],
+        tasks: ['hsp-compiler']
+      },
+      html: {
+        files: ['src/**/*.html'],
+        tasks: ['copy']
       }
     },
     connect: {

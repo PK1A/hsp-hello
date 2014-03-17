@@ -37,7 +37,6 @@ module.exports = function(grunt) {
           hostname: 'localhost',
           port: 8000,
           base: 'dist',
-          keepalive: true,
           open: true
         }
       }
@@ -46,4 +45,5 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('default', ['hsp-compiler', 'copy']);
+  grunt.registerTask('play', ['default', 'connect:server', 'watch']);
 };

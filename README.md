@@ -17,6 +17,6 @@ Clone this repository and then run:
 == Play
 
 Open 2 terminal windows with the following commands:
-* `grunt watch`
-* `grunt connect`
-and point your browser to http://localhost:8000/
+
+* `grunt watch` - this will enable automatic re-compilation every time you change one of hsp files
+* `grunt connect` - this will start a build-in HTTP server and open your browser to point to http://localhost:8000/

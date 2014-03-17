@@ -33,7 +33,8 @@ module.exports = function(grunt) {
           hostname: 'localhost',
           port: 8000,
           base: 'dist',
-          keepalive: true
+          keepalive: true,
+          open: true
         }
       }
     }

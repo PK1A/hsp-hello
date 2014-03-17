@@ -3,13 +3,13 @@ Hello, #space!
 
 This is a simple project illustrating Grunt setup for a sample #space project.
 
-== Install
+## Install
 
 Clone this repository and then run:
 * `npm install grunt-cli -g`
 * `npm install`
 
-== Play
+## Play
 
 To start exploring #space in an easy to setup playground just type:
 * `grunt play`
@@ -20,7 +20,7 @@ This will execute several steps:
 * open your favourite web browser and point it to the root of a freshly started server (http://localhost:8000)
 * watch for all the file changes and compile / copy files as soon as those are changed
 
-== There is more
+## There is more
 
 This project contains configuration of several Grunt tasks for:
 * compiling #space templates:
